@@ -6,6 +6,6 @@
 	
 	#rw_contaner{width: 100%;}
 	#refugeeswelcome{width:100%;transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);}
-	#Ebene_1{margin-left:0; margin-left: auto; margin-right: auto; width:auto;}
-	body{margin-top:60px;}
+	#Ebene_1{margin-left:0; margin-left: auto; margin-right: auto; }
+	body{margin-top:55px;}
 }
