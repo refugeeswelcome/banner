@@ -4,7 +4,7 @@
 
 @media only screen and (max-width:599px) {
 	
-	#rw_contaner{width: 100%;}
+	#rw_contaner{width: 100%; position:static;}
 	#refugeeswelcome{width:100%;transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);}
 	#Ebene_1{width:auto; margin-left: auto; margin-right: auto; }
 	body{margin-top:52px;}
