@@ -8,3 +8,4 @@ var banner = '<div id="rw_contaner" ><div id="refugeeswelcome">'+img+'</div>';
 document.getElementsByTagName("body")[0].innerHTML += banner;
 
 
+    
