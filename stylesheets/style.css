@@ -1,11 +1,11 @@
 #rw_contaner{width: 350px;height:200px;overflow:hidden;position: absolute; top: 0; right: 0;}
 #refugeeswelcome{background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.4);width:450px; height: 55px; transform: rotate(45deg); -webkit-transform: rotate(45deg);  -moz-transform: rotate(45deg);-ms-transform: rotate(45deg);}
-#Ebene_1{	margin-left:185px;padding-top:5px;width:210px;}
+#Ebene_1{	margin-left:187px;padding-top:5px;width:210px;}
 
 @media only screen and (max-width:599px) {
 	
 	#rw_contaner{width: 100%;}
 	#refugeeswelcome{width:100%;transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);}
-	#Ebene_1{margin-left:0; margin-left: auto; margin-right: auto; }
-	body{margin-top:55px;}
+	#Ebene_1{width:auto; margin-left: auto; margin-right: auto; }
+	body{margin-top:52px;}
 }
