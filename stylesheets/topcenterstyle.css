@@ -1,0 +1,24 @@
+
+	#rw_container{ position: absolute; top: 0; left: 0;  width: 100%; overflow:visible; height:55px; background-color: #ffffff;}
+	#refugeeswelcome{width:210px; margin-left:auto;margin-right:auto; margin-top:0; box-shadow: 0 0 0 rgba(0,0,0,0.4); transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg); }
+	#Ebene_1{margin-left: auto; margin-right:auto;}
+	body{margin-top:58px;}
+	
+	.topleft,.topright,.bottomleft,.bottomright{
+		top: 0; left: 0; transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);
+	}
+	
+	.bottomright #Ebene_1,.bottomleft #Ebene_1{
+		transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);
+		
+	}
+	
+	.bottomleft #refugeeswelcome,.bottomright #refugeeswelcome{
+		box-shadow: 0 0 0 rgba(0,0,0,0.4);
+	}
+
+	
+	body{
+		box-shadow: 0 -1px 3px rgba(0,0,0,0.4)
+	}
+
