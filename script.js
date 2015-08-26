@@ -3,4 +3,4 @@ var img ='<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xml
 var banner = '<a href="http://refugeeswelcome.github.io/banner"><div id="rw_contaner" class="topright" ><div id="refugeeswelcome">'+img+'</div></div>';
 document.getElementsByTagName("body")[0].innerHTML += banner;  
 var bannerclass= document.getElementById('rwbanner').getAttribute('data-position');
-document.getElementById("rw_contaner").setAttribute("class", bannerclass);
+document.getElementById("rw_contaner").setAttribute("class", bannerclass); 
