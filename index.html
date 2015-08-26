@@ -13,9 +13,9 @@
     <section class="page-header">
       <h1 class="project-name">#refugeeswelcome - Banner für Deine Website</h1>
       <h2 class="project-tagline">#refugeeswelcome, #banner, #haltungzeigen</h2>
-      <a href="https://github.com/refugeeswelcome/refugeeswelcome" class="btn">View on GitHub</a>
-      <a href="https://github.com/refugeeswelcome/refugeeswelcome/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/refugeeswelcome/refugeeswelcome/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="https://github.com/refugeeswelcome/banner" class="btn">View on GitHub</a>
+      <a href="https://github.com/refugeeswelcome/banner/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/refugeeswelcome/banner/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
@@ -24,9 +24,9 @@
 
 <p>Prima - dann nimm Dir 10 Minuten Zeit das #refugeeswelcome-Banner in Deine Website einzubauen und zeige damit, dass Dir die Situation der Menschen, die zu uns kommen und vor Krieg, Unterdrückung, Hunger und Not fliehen, nicht egal ist.</p>
 <p>
-Paste dazu einfach <br />
+Füge dazu  einfach <br />
 <code>
-	&lt;script src="http://refugeeswelcome.github.io/banner/script.js"&gt;&lt;/script&gt;
+	&lt;script data-position="topleft" src="http://refugeeswelcome.github.io/banner/script.js"&gt;&lt;/script&gt;
 </code>
 
 <br />
@@ -34,29 +34,31 @@ in den Code Deiner Website, am besten vor das schliessende <code>&lt;/body&gt;</
 </p>
 
 <p>
-Falls dir das zu nerdig ist, bitte deinen Webmaster oder deine Webagentur, den Einbau vorzunehmen. Es kostet sie nicht mehr als einen Fingerschnipp.
+Die Positionierung des Banners kannst du steuern. Ändere dazu einfach das <code>data-position</code>-Attribut im Scripttag.<br />
+<code>
+"topleft" = links oben<br />
+"topright" = rechts oben<br />
+"bottomleft" = links unten<br />
+"bottomright" = rechts unten<br />
+</code>
 </p>
 
-<h3>
-<a id="support-und-kontakt" class="anchor" href="#support-und-kontakt" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kontakt</h3>
-
-<p><a href="mailto:liplan@me.com">liplan@me.com</a></p>
-
-<h3>
-<a id="ausblick" class="anchor" href="#ausblick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nächste Schritte</h3>
 <p>
-Wir werden das Banner in den nächsten Tagen weiter optimieren - responsiv machen und Cross-Browser testen. U.a. werdet ihr beim Einbau die Position des Banners feslegen können: Links oben, rechts oben, unten etc.<br />
-(24.08.2015)
+Falls dir das zu kompliziert ist, bitte deinen Webmaster oder deine Webagentur, den Einbau vorzunehmen. Es kostet sie nicht mehr als einen Fingerschnipp.
 </p>
+
+
+
+
 
       <footer class="site-footer">
 
-        <span class="site-footer-owner"><a href="http://refugeeswelcome.com/banner/refugeeswelcome">#refugeeswelcome - Banner für Deine Website</a> wird von <a href="https://github.com/refugeeswelcome">Sven Schäfermeier und Christian Noss</a> betreut.</span>
+        <span class="site-footer-owner"><a href="https://github.com/refugeeswelcome/banner/">#refugeeswelcome - Banner für Deine Website</a> wird von <a href="mailto:liplan@me.com">Sven Schäfermeier</a> und Christian Noss betreut.</span>
       </footer>
 
     </section>
  
-<script src="http://refugeeswelcome.github.io/banner/script.js"></script> 
+<script id="rwbanner" data-position="topleft" src="http://refugeeswelcome.github.io/banner/script.js"></script> 
 
 
 
