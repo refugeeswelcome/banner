@@ -5,7 +5,7 @@ document.getElementsByTagName("body")[0].innerHTML += banner;
 var bannerclass= document.getElementById('rwbanner').getAttribute('data-position');
 
 if(bannerclass == "topcenter"){
-	document.writeln('<link rel="stylesheet" type="text/css" href=""http://refugeeswelcome.github.io/banner/stylesheets/topcenterstyle.css" media="screen">');
+	document.writeln('<link rel="stylesheet" type="text/css" href="http://refugeeswelcome.github.io/banner/stylesheets/topcenterstyle.css" media="screen">');
 } 
 
 document.getElementById("rw_container").setAttribute("class", bannerclass);
