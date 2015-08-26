@@ -14,11 +14,13 @@
 	bottom: 0; left: 0; transform: rotate(-90eg); -webkit-transform: rotate(-90deg);  -moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);
 }
 
-#Ebene_1{padding-top:5px;width:210px;  margin-left: 45px;}
+#Ebene_1{margin-top:2px;width:210px;  margin-left: 45px;}
 .bottomright #Ebene_1, .bottomleft #Ebene_1{
 	transform: rotate(-180deg); -webkit-transform: rotate(-180deg);  -moz-transform: rotate(-180deg);-ms-transform: rotate(-180deg); 
 	padding-top:0;
 }
+
+svg { max-height: 100%}
 
 @media only screen and (max-width:599px) {
 	#rw_contaner{ position: absolute; top: 0; left: 0;  width: 100%; overflow:visible;}
