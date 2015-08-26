@@ -36,7 +36,6 @@ svg { max-height: 100%}
 		top: 0; left: 0; transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);
 	}
 	
-	
 	.bottomright #Ebene_1,.bottomleft #Ebene_1{
 		transform: rotate(0deg); -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);-ms-transform: rotate(0deg);
 		
